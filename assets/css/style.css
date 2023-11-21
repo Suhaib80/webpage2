@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* Tophead Section Start */
+.tophead{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #41c067;
+    padding: 0px 100px;
+}
+.tophead ul li{
+    display: inline;
+    color: #3a3131;
+    margin: 0px 3px;
+}
+.tophead ul li a{
+    color: #3a3131;
+}
+.tophead ul li a:hover{
+    color: #fff;
+    transition: all 0.3s;
+}
+/* Tophead Section End */
+/* Header Section Start */
+header{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    padding: 0px 100px;
+    line-height: 100px;
+    background: #36f336da;
+}
+header h1{
+    font-size: 50px;
+    margin-right: 20px;
+    color: #705c5c;
+}
+header h1, header h3{
+    display: inline-block;
+}
+/* Header Section End */
+/* Nav Section Start */
+nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #7df17d;
+    padding: 0px 100px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: #000;
+    font-weight: 900;
+}
+nav ul li a:hover{
+    font-size: 105%;
+    transition: all 0.3s linear;
+    color: #e61111;
+}
+/* Nav Section End */
+/* Content Section Start */
+section{
+    width: 100%;
+    padding: 0px 100px;
+}
+section main{
+    width: 80%;
+    float: left;
+    padding-top: 20px;
+}
+section main .cont{
+    margin-top: 10px;
+}
+section main .conten{
+    margin-top: 20px;
+}
+section main .alien{
+    margin-top: 20px;
+}
+section main .alien ul li{
+    margin-left: 30px;
+}
+section main .alien ul{
+    margin-top: 10px;
+}
+section main .chuck{
+    margin-top: 10px;
+}
+section main .chuck ol{
+    margin-top: 10px;
+}
+section main .chuck ol li{
+    margin-left: 50px;
+}
+section main .chuck .head{
+    margin-top: 10px;
+}
+section main .chuck .head ol li{
+    margin-left: 20px;
+}
+section main .conte{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-left: 5px;
+    border-left: 2px solid #534949;
+}
+section aside{
+    width: 20%;
+    float: right;
+    padding: 20px 15px;
+    background: #b6a1a1;
+}
+aside ul li{
+    font-weight: 600;
+    list-style: none;
+}
+aside ul li ul li{
+    font-weight: 100;
+    padding-left: 20px;
+}
+/* Content Section End */
+/* Footer Section Start */
+footer{
+    background: #053005;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px 100px;
+    color: #fff;
+}
+footer .links{
+    width: 33%;
+    float: left;
+}
+footer .links ul li{
+    list-style-type: none;
+}
+footer .follow{
+    width: 33%;
+    float: left;
+}
+footer .follow ul li{
+    list-style-type: none;
+}
+footer .copy{
+    width: 34%;
+    text-align: right;
+    float: right;
+}
+/* Footer Section End */
+/* Media query section start */
+@media screen and (max-width: 768px){
+    header h3{
+       display: flex;
+       align-self: auto;
+    }
+}
+/* Media query section end */
